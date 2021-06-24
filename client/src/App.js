@@ -38,14 +38,14 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div>
-        <h2>IF</h2>
+    <div className="bg-gray-200 flex items-center justify-center h-screen">
+      <div className="bg-green-500 text-white text-xl font-bold w-72 rounded-lg shadow-lg p-5 space-y-2">
+        <h2 className="font-bold">IF</h2>
         <SelectCoin coins={coins} handleSelectCoin={handleSelectCoin1} />
-        <h3>Had the market cap of</h3>
+        <h3 className="font-bold">had the market cap of</h3>
         <SelectCoin coins={coins} handleSelectCoin={handleSelectCoin2} />
-        <h3>
-          It would be worth... <span>{findPrice()}</span>
+        <h3 className="font-bold">
+          it would be worth... <span>{findPrice()}</span>
         </h3>
       </div>
     </div>
