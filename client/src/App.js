@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="bg-gray-200 flex items-center justify-center h-screen">
-      <div className="bg-green-500 text-white text-xl font-bold w-72 rounded-lg shadow-lg p-5 space-y-2">
+      <div className="bg-green-500 text-white text-xl font-bold w-80 overflow-hidden rounded-lg shadow-lg p-5 space-y-2">
         <h2 className="font-bold">IF</h2>
         <SelectCoin coins={coins} handleSelectCoin={handleSelectCoin1} />
         <h3 className="font-bold">had the market cap of</h3>
